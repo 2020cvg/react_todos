@@ -108,7 +108,7 @@ const TodoItem = ({
 
 
 TodoItem.propTypes = {
-  todo: PropTypes.object.isRequired
+  updateTodo: PropTypes.func.isRequired
 };
 
 const mapStateToProps = (state) => ({
